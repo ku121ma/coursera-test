@@ -44,13 +44,14 @@ h1{
 	}
 }
 
-/********** Medium devices only **********/
+/********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	#header-nav {
 		height: 100px;
 	}
 }
 
+/********** Extra Small devices only **********/
 @media (max-width: 767px) {
 	.navbar-brand h1 { /* Restaurant name */
     	font-size: 3vw; /* 1vw = 1% of viewport width */;
